@@ -1,0 +1,80 @@
+{
+    display:inline;
+}
+* {
+    margin:0;
+    padding:0;
+}
+img {
+    border-width:0;
+}
+body {
+    border-bottom: right;
+    background:url(../img/nanatzu_ta.jpg) repeat-x scroll center top #000;
+    color:#c7b8a3;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:0.75em;
+}
+a {
+    color:#c46501;
+    text-decoration:underline;
+}
+a:hover {
+    text-decoration:none;
+}
+.clear {
+    clear:both;
+    display:block;
+    height:0;
+    overflow:hidden;
+    visibility:hidden;
+    width:0;
+}
+
+header {
+    background-color:#1f1f1f;
+}
+header .header {
+    overflow:hidden;
+    position:relative;
+    width:960px;
+    height:42px;
+    margin:0 auto;
+}
+header .search {
+    float:right;
+    margin-top:10px;
+    width:300px;
+}
+header .search input[type=text] {
+    background-color:#443e30;
+    border:1px solid #2F2C29;
+    color:#FFF;
+    font-size:1em;
+    height:20px;
+    margin-right:5px;
+    width:203px;
+    padding:1px 0 0 3px;
+    text-align: right;
+}
+header .search input[type=submit] {
+    background-image:url(../img/search.gif);
+    height:21px;
+    width:60px;
+    font-size:0.9em;
+    border-width:0;
+}
+header .social_icons {
+    float:right;
+    margin-right:5px;
+    margin-top:5px;
+}
+.logo {
+    position:relative;
+    width:960px;
+    height:225px;
+    margin:0 auto;
+}
+.logo img {
+    margin:20px 10px;
+}
